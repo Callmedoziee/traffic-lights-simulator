@@ -1,0 +1,31 @@
+.circle{
+    width:8rem;
+    height:8rem;
+    border:2px solid;
+    border-radius: 50%;
+    /* background-color: lightgrey; */
+}
+.trafficLightContainer{
+    border:2px solid white;
+    width:100%;
+    max-width:max-content;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    margin: 0 auto;
+    background-color: #333;
+    max-height:100vh;
+}
+
+.btn{
+    padding:.5em 1em;
+    border-radius: 10px;
+    outline:0;
+    border:0;
+    background-color: #fff;
+    color:#000;
+    font:600;
+    font-size: 1.35rem;
+    cursor:pointer;
+}
