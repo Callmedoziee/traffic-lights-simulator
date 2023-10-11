@@ -1,4 +1,7 @@
-.overallContainer{
-    max-width: 1500px;
-    padding:0 2rem;
+.overallContainer {
+  max-width: 1500px;
+  padding: 0 2rem;
+  margin: 0 auto;
+  overflow: hidden;
+  height: 100vh;
 }
