@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import LightCircle from "./components/lightCircle";
 import "./styles.css";
 import { timeFormatter } from "./utils";
+import LightCircle from "./components/LightCircle";
 
 const trafficLightSequence = [
   { color: "red", duration: 5000 },
