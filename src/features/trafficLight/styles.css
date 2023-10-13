@@ -3,6 +3,9 @@
     height:8rem;
     border:2px solid;
     border-radius: 50%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
     /* background-color: lightgrey; */
 }
 .trafficLightContainer{
@@ -40,4 +43,8 @@
 .pedestrainsSign p{
  font-size: 2rem;
  text-align: center;
+}
+
+.time{
+    font-size: 2rem;
 }

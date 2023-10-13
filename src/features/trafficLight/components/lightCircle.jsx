@@ -1,9 +1,9 @@
-import "../styles.css";
+const LightCircle = ({ color, time }) => {
+  return (
+    <div className="circle" style={{ backgroundColor: color }}>
+      <p className="time">{time}</p>
+    </div>
+  );
+};
 
-const LightCircle = ({color}) => {
-    return ( <div className="circle" style={{backgroundColor: color}}>
-
-    </div> );
-}
- 
 export default LightCircle;
